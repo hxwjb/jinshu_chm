@@ -1,4 +1,4 @@
-package com.jinshu.com.chm;
+package com.jinshu.com.chm.object;
 
 import java.util.ArrayList;
 

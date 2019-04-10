@@ -1,6 +1,9 @@
 package com.jinshu.com.chm;
 
 
+import com.jinshu.com.chm.object.item;
+import com.jinshu.com.chm.object.person;
+
 public class MainAPP {
 
 
@@ -12,5 +15,9 @@ public class MainAPP {
 
         System.out.println(item1.getName());
     }
+
+
+
+
 
 }
