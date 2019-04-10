@@ -2,7 +2,7 @@ package com.jinshu.com.chm.object;
 
 import java.util.ArrayList;
 
-public class item {
+public class iteminfo {
 
     private String name;
     private int type;
