@@ -1,4 +1,5 @@
-	ItemInfo={}
+
+ItemInfo={}
 --newkdef[0小还丹]=function()
 ItemInfo[0]={
 "Ｌ物品说明：可恢复少量生命",

@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/SCRIPT/jymain.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/jywar.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/kdef.lua" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../jysdl-bh/doc/api函数说明0.65.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../jysdl-bh/src/jymain.cpp" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
