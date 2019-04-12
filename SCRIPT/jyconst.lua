@@ -4882,7 +4882,7 @@ CC.COMBO = {
 	if CONFIG.Operation == 0 then
 		CC.OpenTimmerRemind = 1;
 	end
-	
+
 	require("MyOEvent");
 	
 	CC.PTF = {}

@@ -11,8 +11,9 @@ public class GlobleConfig {
 
     private static Logger logger = Logger.getLogger(GlobleConfig.class.getClass());
         // 配置文件定义的数据
-        public static String scriptPath;// 远程服务端端口
+        public static String scriptPath;// script脚本路径
 
+        public static String dataPath;// script脚本路径
 
         static {
             Properties props = new Properties();
@@ -21,6 +22,7 @@ public class GlobleConfig {
 
                 props.load(ioin);
                 scriptPath = props.getProperty("scriptPath");
+                dataPath = props.getProperty("dataPath");
                 logger.info(scriptPath);
 
 

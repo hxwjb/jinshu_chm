@@ -46,28 +46,6 @@ function  hi()
     JY.Base={};          --基本数据
     --读取R*.grp文件
 
-    -- 以只读方式打开文件
-    file = io.open("ranger.grp", "r")
-
-    file:seek("end",1682)
-    local block = 199510-1682;
-    JY.Data_Base = file:read(block)
-    -- 关闭打开的文件
-    file:close()
-
-    --设置访问基本数据的方法，这样就可以用访问表的方式访问了。而不用把二进制数据转化为表。节约加载时间和空间
-    local meta_t={
-        __index=function(t,k)
-            return GetDataFromStruct(JY.Data_Base,0,CC.Base_S,k);
-        end,
-
-        __newindex=function(t,k,v)
-            SetDataFromStruct(JY.Data_Base,0,CC.Base_S,k,v);
-        end
-    }
-    setmetatable(JY.Base,meta_t);
-
-
 end
 
 

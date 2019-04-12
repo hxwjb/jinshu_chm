@@ -5,9 +5,8 @@ import com.jinshu.com.chm.event.event;
 import com.jinshu.com.chm.load.loadScript;
 import com.jinshu.com.chm.object.iteminfo;
 import com.jinshu.com.chm.object.person;
-
 import org.apache.log4j.Logger;
-import  org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.PropertyConfigurator;
 
 import java.util.ArrayList;
 
@@ -36,6 +35,7 @@ public class MainAPP {
 
         loadScript.loadFile();
 
+        //loadgrp.loadpersongrp();
 
 
     }
@@ -64,4 +64,6 @@ public class MainAPP {
     public void setEvents(ArrayList<event> events) {
         this.events = events;
     }
+
+
 }

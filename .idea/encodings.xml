@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SCRIPT/ItemInfo.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/MyOEvent.lua" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SCRIPT/config.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/jyconst.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/jymain.lua" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SCRIPT/jywar.lua" charset="GBK" />
